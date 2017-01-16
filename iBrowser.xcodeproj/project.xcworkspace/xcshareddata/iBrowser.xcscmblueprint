@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "83FAA1DD63027590F60C1CFBA235E002BF5B2860",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "83FAA1DD63027590F60C1CFBA235E002BF5B2860" : 9223372036854775807,
+    "BDBDF5A11A2E6E58C082B061FB1F85058F5C3290" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "81E2A705-7EDC-4B63-96C4-245D16895F66",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "83FAA1DD63027590F60C1CFBA235E002BF5B2860" : "iBrowser\/",
+    "BDBDF5A11A2E6E58C082B061FB1F85058F5C3290" : ""
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "iBrowser",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "iBrowser.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/Erozone\/iBrowser.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "83FAA1DD63027590F60C1CFBA235E002BF5B2860"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/Erozone\/LoginDemo.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "BDBDF5A11A2E6E58C082B061FB1F85058F5C3290"
+    }
+  ]
+}
