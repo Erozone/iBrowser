@@ -7,11 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		696EB4C41E2E743B00035451 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 696EB4C31E2E743B00035451 /* Assets.xcassets */; };
 		69719D5E1E2D60B7003E8A4D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69719D5D1E2D60B7003E8A4D /* AppDelegate.swift */; };
 		69719D601E2D60B7003E8A4D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69719D5F1E2D60B7003E8A4D /* ViewController.swift */; };
 		69719D631E2D60B7003E8A4D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 69719D611E2D60B7003E8A4D /* Main.storyboard */; };
 		69719D661E2D60B7003E8A4D /* iBrowser.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 69719D641E2D60B7003E8A4D /* iBrowser.xcdatamodeld */; };
-		69719D681E2D60B7003E8A4D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 69719D671E2D60B7003E8A4D /* Assets.xcassets */; };
 		69719D6B1E2D60B7003E8A4D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 69719D691E2D60B7003E8A4D /* LaunchScreen.storyboard */; };
 		69719D761E2D60B7003E8A4D /* iBrowserTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69719D751E2D60B7003E8A4D /* iBrowserTests.swift */; };
 		69719D811E2D60B8003E8A4D /* iBrowserUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69719D801E2D60B8003E8A4D /* iBrowserUITests.swift */; };
@@ -101,12 +101,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		696EB4C31E2E743B00035451 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		69719D5A1E2D60B7003E8A4D /* iBrowser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iBrowser.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		69719D5D1E2D60B7003E8A4D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		69719D5F1E2D60B7003E8A4D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		69719D621E2D60B7003E8A4D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		69719D651E2D60B7003E8A4D /* iBrowser.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = iBrowser.xcdatamodel; sourceTree = "<group>"; };
-		69719D671E2D60B7003E8A4D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		69719D6A1E2D60B7003E8A4D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		69719D6C1E2D60B7003E8A4D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		69719D711E2D60B7003E8A4D /* iBrowserTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iBrowserTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -192,7 +192,7 @@
 				69719D5F1E2D60B7003E8A4D /* ViewController.swift */,
 				69719DE71E2D6AE2003E8A4D /* StartViewController.swift */,
 				69719D611E2D60B7003E8A4D /* Main.storyboard */,
-				69719D671E2D60B7003E8A4D /* Assets.xcassets */,
+				696EB4C31E2E743B00035451 /* Assets.xcassets */,
 				69719D691E2D60B7003E8A4D /* LaunchScreen.storyboard */,
 				69719D6C1E2D60B7003E8A4D /* Info.plist */,
 				69719D641E2D60B7003E8A4D /* iBrowser.xcdatamodeld */,
@@ -400,7 +400,6 @@
 				69719DD81E2D66CE003E8A4D /* OpenSans-Regular.ttf in Resources */,
 				69719DA81E2D66CE003E8A4D /* Inconsolata-Bold.ttf in Resources */,
 				69719DDB1E2D66CE003E8A4D /* OpenSans-Semibold.ttf in Resources */,
-				69719D681E2D60B7003E8A4D /* Assets.xcassets in Resources */,
 				69719DC61E2D66CE003E8A4D /* OpenSans-BoldItalic.ttf in Resources */,
 				69719DE11E2D66CE003E8A4D /* LICENSE.txt in Resources */,
 				69719DC31E2D66CE003E8A4D /* OpenSans-Bold.ttf in Resources */,
@@ -408,6 +407,7 @@
 				69719DD51E2D66CE003E8A4D /* OpenSans-LightItalic.ttf in Resources */,
 				69719D631E2D60B7003E8A4D /* Main.storyboard in Resources */,
 				69719DB11E2D66CE003E8A4D /* LICENSE.txt in Resources */,
+				696EB4C41E2E743B00035451 /* Assets.xcassets in Resources */,
 				69719DC91E2D66CE003E8A4D /* OpenSans-ExtraBold.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -727,6 +727,7 @@
 				69719D871E2D60B8003E8A4D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		69719D881E2D60B8003E8A4D /* Build configuration list for PBXNativeTarget "iBrowserTests" */ = {
 			isa = XCConfigurationList;
@@ -735,6 +736,7 @@
 				69719D8A1E2D60B8003E8A4D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		69719D8B1E2D60B8003E8A4D /* Build configuration list for PBXNativeTarget "iBrowserUITests" */ = {
 			isa = XCConfigurationList;
@@ -743,6 +745,7 @@
 				69719D8D1E2D60B8003E8A4D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

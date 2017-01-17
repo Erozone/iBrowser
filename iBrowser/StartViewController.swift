@@ -12,14 +12,19 @@ class StartViewController: UIViewController,UISearchBarDelegate {
 
     @IBOutlet weak var searchBar: UISearchBar!
     @IBOutlet weak var myWebView: UIWebView!
+    @IBOutlet weak var previousButtonOutlet: UIButton!
+    @IBOutlet weak var nextButtonOutlet: UIButton!
+    
     var urlString : String?
     
-    var url:URL? //= URL(string: "https://www.hackingwithswift.com/read/4/2/creating-a-simple-browser-with-wkwebview")!
+    var url:URL?//= URL(string: "https://www.hackingwithswift.com/read/4/2/creating-a-simple-browser-with-wkwebview")!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
         searchBar.delegate = self
+        previousButtonOutlet.isHighlighted = false
+        nextButtonOutlet.isHighlighted = false
         
         // Do any additional setup after loading the view.
     }
@@ -46,8 +51,10 @@ class StartViewController: UIViewController,UISearchBarDelegate {
     }
     
     func searchBar(_ searchBar: UISearchBar, textDidChange searchText: String) {
-        url = URL(string: searchText)!
-        urlString = searchText
+        if let urlString = URL(string: searchText){
+            url = urlString
+        }
+        
     }
     
     func searchBarSearchButtonClicked(_ searchBar: UISearchBar) {
@@ -56,4 +63,17 @@ class StartViewController: UIViewController,UISearchBarDelegate {
         searchBar.resignFirstResponder()
         
     }
+    
+    
+    @IBAction func previousButtonPressed(_ sender: Any) {
+        myWebView.goBack()
+        print("Previous Button Tapped")
+    }
+    
+    @IBAction func nextButtonPressed(_ sender: Any) {
+        myWebView.goForward()
+        print("Next Button Tapped")
+    }
+    
+    
 }
